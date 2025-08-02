@@ -74,9 +74,7 @@ Overall, you can use any workflow you want. It's ok to mix and match. I just wan
 
 With that in mind, いきましょう！
 
-------
-
-## Resources
+# Resources
 
 - [W3 Schools](https://www.w3schools.com/r/)
 
@@ -94,7 +92,7 @@ Fundamental Data Types:
 | Float        | Numeric                   | 0.5, 3.14, 99.0                 | Decimal numbers                                              |
 | String       | Character                 | "Hello", 'world', 'x'           | Text                                                         |
 | Array        | Vector / List             | c(1, 2, 3), c("hello", "world") | A list-like object that holds other objects (i.e. numeric, string, or any other type) |
-| Dictionary   | Named Vector / Named List | list(name="chris", age="24")    | A list-like object, but has a **key** associated with a **value** |
+| Dictionary   | Named Vector / Named List | list(student="chris", age="24") | A list-like object, but has a **key** associated with a **value** |
 | Boolean      | Logical                   | TRUE, T, FALSE, F               | True or false values                                         |
 
 **Note:** 
