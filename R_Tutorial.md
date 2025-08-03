@@ -470,9 +470,7 @@ print(glue("user id: {user_id} has password: {password}"))
 - `paste0()` is the default way to combine variables and strings. You pass in variables or type your own strings, and each part is separated with a comma `,` to produce 1 final string.
 - `glue()` also produces 1 final string, but I prefer this way since you use `{variable_name}` to pass in variables. This is more like Python, and just my preference, but use what you feel is best.
 
-
-
- ## Operators
+# Operators
 
 Operators manage **boolean** (`TRUE`, `FALSE`) values, and depending on the boolean, it drives the logic of the code.
 
