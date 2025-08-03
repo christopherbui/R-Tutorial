@@ -493,13 +493,13 @@ Comparison operators compare 2 *values*. If the statement is true, then the outp
 
 ```R
 # Example 1
-4.0 < 16	# TRUE
+4.0 < 16 # TRUE
 
 # Example 2
 2 != 2	# FALSE
 
 # Example 3
-"fujikaze" == "fujikaze"	# TRUE
+"fujikaze" == "fujikaze" # TRUE
 
 # Example 4
 a <- 2
