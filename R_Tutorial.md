@@ -164,11 +164,11 @@ Text.
 
 ## Boolean
 
-Booleans are simply TRUE or FALSE.
+Booleans are simply `TRUE` or `FALSE`.
 
-- Code will run if conditions are TRUE.
+- Code will run if conditions are `TRUE`.
 - Booleans help set what code is run in certain scenarios.
-  - *"If something is TRUE, do this. If it's FALSE, do something else."*
+  - *"If condition is TRUE, do something. If it's FALSE, do something else."*
 
 - "true" is represented as:  `TRUE` , `T`, any non-zero number (1, 23, -4, etc.).
 - "false" is represented as:  `FALSE`,  `F`, zero (0).
@@ -217,7 +217,7 @@ In R, a basic array can also be a **LIST**, created with `list()`.
 fruits <- list("apple", "orange", "banana", 9)
 scores <- list(82, 75, 95, "hello")
 
-# the [[num]] is just the index, or position in the list of each item
+# the [[1]], [[2]], [[3]], [[4]] is just the index, or each item's position in the list
 # Note: The list has both string (character) & integer items.
 print(fruits)
 #[[1]]
@@ -392,7 +392,7 @@ scores[3]
 #[[1]]
 #[1] 55
 
-# get 2nd to 4th item
+# get list containing 2nd to 4th item
 > scores[2:4]
 #[[1]]
 #[1] 17
