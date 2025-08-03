@@ -422,15 +422,11 @@ scores[[3]]
 #[1] 55
 ```
 
-
-
-# Basics
-
-### Variables
+# Variables
 
 Variables are names we use to store data, or reference an object (i.e. a list, a dataframe, etc.)
 
-In R, we use `<-` to assign data to a variable.
+**In R, we use `<-` to assign data to a variable.**
 
 ```R
 # assign string to variable
@@ -476,5 +472,47 @@ print(glue("user id: {user_id} has password: {password}"))
 
 
 
- 
+ ## Operators
+
+Operators manage **boolean** (`TRUE`, `FALSE`) values, and depending on the boolean, it drives the logic of the code.
+
+**The result of a statement using operators is a boolean.**
+
+## Comparison Operators
+
+Comparison operators compare 2 *values*. If the statement is true, then the output of the statement is `TRUE`. Otherwise, it is `FALSE`.
+
+| **Operator** | **Meaning**              |
+| ------------ | ------------------------ |
+| ==           | equal                    |
+| !=           | not equal                |
+| >            | greater than             |
+| <            | less than                |
+| >=           | greater than or equal to |
+| <=           | less than or equal to    |
+
+```R
+# Example 1
+4.0 < 16	# TRUE
+
+# Example 2
+2 != 2	# FALSE
+
+# Example 3
+"fujikaze" == "fujikaze"	# TRUE
+
+# Example 4
+a <- 2
+b <- a
+a == b	# TRUE
+b == a 	# TRUE
+
+# Example 5
+a <- 2
+b <- a
+a <- 5
+a == b	# FALSE
+a != b	# TRUE
+
+```
 
