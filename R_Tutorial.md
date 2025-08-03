@@ -448,20 +448,24 @@ user_id <- "oxford8888"
 password <- "ja84$@%97"
 
 # BAD
-# this is not efficient, especially if information is long
-# if password changes, we would have to manually change the print statement
+# This is not efficient, especially if information is long.
+# If user_id or password change, we would have to manually change the string inside the print statement.
+# This example is called "hard coding" because it doesn't allow flexibility if user_id & password variables change.
 print("user id: oxford8888 has password: ja84$@%97")
 
 
 # GOOD
-# variables allow efficient referencing and changes
+# Variables allow efficient referencing and changes.
+# If we want to change user_id or password, we just change those variables; no need to change the statement variable or print function.
 
 # uses paste0()
-print(paste0("user id: ", user_id, " has password: ", password))
-#[1] "user id: oxford8888 has password: ja84$@%97"
+statement <- paste0("user id: ", user_id, " has password: ", password)
+print(statement)
+# user id: oxford8888 has password: ja84$@%97
 
 # uses glue()
-print(glue("user id: {user_id} has password: {password}"))
+statement <- glue("user id: {user_id} has password: {password}")
+print(statement)
 # user id: oxford8888 has password: ja84$@%97
 ```
 
